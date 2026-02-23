@@ -1,16 +1,16 @@
 # Instagram-engagement-analysis
-Google sheet-based analysis of Instagram insights to identify where content loses audience attention across the engagement funnel (impressions, reach, likes, comments) using data cleaning, pivot tables, and visual storytelling. Determine which content strategies maximize monetization potential. 
+I built this to figure out what content actually drives shares/saves and not just reach because I want to understand what makes people engage with content rather than skipping past it. Using data cleaning, pivot tables, and visual storytelling I explored patterns in engagement behavior to determine which content strategies maximize monetization potential. 
 
-## Project Overview
+## Project Context
 This project analyzes Instagram post-level performance data to identify where audience engagement drops off across the content engagement funnel. The goal is to understand which content behaviors drive deeper engagement and how these insights can be used to improve business outcomes such as reach efficiency, audience retention, and monetization potential.
 
 ## Business Objective
-Identify engagement drop-off points from impressions to deeper interactions (likes, comments, saves, shares) and determine which content types minimize audience loss.
+Identify where audience engagement declines across the content interaction funnel and determine which content characteristics sustain deeper engagement behaviors such as saves and shares.
 
 ## Key Questions
-- Where does engagement decline most frequently across the Instagram funnel?
-- Which content types sustain deeper engagement?
-- How does engagement quality differ between high- and low-performing posts?
+- At which stage does engagement decline most frequently across the enagement funnel?
+- Which post characteristics correlate to sustain deeper engagement (saves, shares vs likes)?
+- What engagement patterns differ between high- and low-performing posts?
 
 ## Data Source
 This project uses a publicly available Instagram post-level analytics dataset obtained from Kaggle. The dataset includes the following fields: upload_date, media_type, likes, comments, shares, saves, reach, impressions, caption_length, hashtags_count, followers_gained, traffic_source, engagement_rate, and content_category. The data is anonymized and contains no personally identifiable user information.
@@ -29,7 +29,7 @@ This project uses a publicly available Instagram post-level analytics dataset ob
 4. Visualized engagement funnels and drop-off behavior
 5. Interpreted insights through a business and revenue lens
 
-## Key Findings
+## Key Insights
 - High impressions do not guarantee deeper engagement
 - Carousel posts tend to retain higher save and share rates
 - Reels generate strong reach but experience higher mid-funnel drop-off
