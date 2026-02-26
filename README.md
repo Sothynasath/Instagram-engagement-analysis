@@ -1,8 +1,8 @@
 # Instagram-engagement-analysis
-I built this to figure out what content actually drives meanigful interactions such as shares/saves and not just reach because I want to understand what makes people engage with content rather than skipping past it. Using data cleaning, pivot tables, and visual storytelling I explored patterns in engagement behavior to determine which content strategies are most likely to maximize monetization potential. 
+I built this to figure out what content actually drives meanigful interactions such as shares/saves and not just reach because I want to understand what makes people engage with content rather than skipping past it. Using data cleaning, pivot tables, and visual storytelling I analyzed patterns in engagement behavior to determine which content strategies are most likely to convert impressions into deeper engagement. The goal was to move beyond vanity metrics and uncover patterns that indicate genuine audience value.
 
 ## Project Context
-This project analyzes Instagram post-level performance data to identify where audience engagement drops off across the content engagement funnel. The goal is to understand which content behaviors sustain deeper engagement and how these insights can inform strategic decisons to improve business outcomes related to efficiency, audience retention, and monetization potential.
+This project analyzes Instagram post-level performance data to identify where audience engagement drops off across the content engagement funnel. The focus is to understand which content behaviors sustain deeper engagement and how those behaviors translate into stronger audence retention and platform performace which will then be used to inform strategic decisons improving business outcomes related to efficiency, audience retention, and monetization potential.
 
 ## Business Objective
 Identify where audience engagement declines across the content interaction funnel and determine which content traits sustain deeper engagement behaviors, particularly as saves and shares.
@@ -47,4 +47,7 @@ Understanding engagement drop-off helps marketing teams optimize content strateg
 ## Next Steps
 - Add time-series engagement trend analysis to monitor performance over time
 - Build churn-risk proxy based on declining engagement and flag content where enagagment drop is at a high risk
-- Expand analysis to user-level data if available for a deeper analysis 
+- Expand analysis to user-level data if available for a deeper analysis
+
+## Executive Summary 
+From the data, carousel posts stand out as the most efficient format for generating meaningful engagement relative to impressions. Reels, on the other hand, are great for visibility but don’t always maintain deeper interaction, which shows that high reach doesn’t automatically mean strong audience connection. A balanced content strategy should therefore combine high-reach formats with high-depth formats to optimize both visibility and interaction quality.
