@@ -1,25 +1,21 @@
 # Analysis Steps (Google Sheets)
 
 ## Goal
-Identify engagement drivers and where drop-offs happen in the Instagram engagement funnel.
+Identify which content behaviors are engagement drivers and where drop-offs occur in the Instagram engagement funnel.
 
 ## Cleaning Steps
 1. Import raw CSV into Google Sheets
-2. Standardize column names (snake_case)
-3. Convert date fields to proper date format
-4. Remove duplicates (if any)
-5. Handle blanks/zeros (document assumptions)
-6. Create calculated fields:
+2. Standardize column names using (snake_case) formatting
+3. Convert date fields to proper datetime format for consistency
+4. Remove duplicates where necessary
+5. Identified blanks/zero values and documented handling assumptions
+6. Create calculated fields to evaluate engangement quality.
    - engagement_rate = (likes + comments + saves + shares) / impressions
    - save_rate = saves / impressions
    - follow_rate = follows / reach
 
 ## Analysis
-- Pivot tables by media_type
-- Pivot tables by traffic_source
-- Top posts table by engagement_rate
-- Funnel drop-off: impressions → reach → engagement actions
+- Built pivot tables segmented by media type to compare performance patterns
+- Constructed engagement funnel comparisons to identify behavioral drop-off stages
+- Ranked media formats by performance to isolate high-retention content strategies
 
-## Output Files
-- `data/cleaned/instagram_cleaned.csv`
-- `visuals/*.png`
